@@ -55,10 +55,6 @@ void Hash::displayHash()
 		cout<<endl;
 	}
 }
-
-
-
-
 int main()
 {
     int arr[] = {15, 11, 27, 8, 12};
@@ -77,32 +73,5 @@ int main()
 
 
     return 0;
-
-}
-
-
-
-
-int main()
-{
-    int arr[] = {15, 11, 27, 8, 12};
-    int length = sizeof(arr)/sizeof(arr[0]);
-    Hash h(7);
-
-    for( int i=0; i<length; i++)
-    {
-    	h.insertItem(arr[i]);
-    }
-
-    h.insertItem(12);
-
-    h.displayHash();
-
-
-    return 0;
-
-
-
-
 
 }
