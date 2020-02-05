@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int* findEven(int* baal, int sizeOfArray)
+int* findEven(int* arr, int sizeOfArray)
 {   
 	int index=0;
 
@@ -9,10 +9,10 @@ int* findEven(int* baal, int sizeOfArray)
 
 	for(int i=0; i<sizeOfArray; i++)
 	{
-		if(baal[i]%2 != 0)
+		if(arr[i]%2 != 0)
 		{   
-			//cout<<baal[2]<<endl;
-			indices[index]= baal[i];
+			//cout<<arr[2]<<endl;
+			indices[index]= arr[i];
 			cout<<"index: "<<index<<endl;
 			cout<<"index value "<<i<<": "<<indices[index]<<endl;;
 			index+=1;
